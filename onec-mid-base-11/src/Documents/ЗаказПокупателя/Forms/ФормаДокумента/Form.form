@@ -320,7 +320,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>КонтактноеЛицо</name>
-        <id>166</id>
+        <id>172</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -331,7 +331,7 @@
         </dataPath>
         <extendedTooltip>
           <name>КонтактноеЛицоРасширеннаяПодсказка</name>
-          <id>168</id>
+          <id>174</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -341,7 +341,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>КонтактноеЛицоКонтекстноеМеню</name>
-          <id>167</id>
+          <id>173</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>InputField</type>
@@ -356,6 +356,12 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceParameterLinks>
+            <name>Отбор.Владелец</name>
+            <datapath xsi:type="form:DataPath">
+              <segments>Объект.Контрагент</segments>
+            </datapath>
+          </choiceParameterLinks>
         </extInfo>
       </items>
       <visible>true</visible>
