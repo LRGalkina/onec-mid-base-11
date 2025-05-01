@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47c7a22d-981f-47b5-b638-5b9e6e66966b">
+  <producedTypes>
+    <refType typeId="30b524f6-0a4f-4258-9445-d277b9c9bfe3" valueTypeId="9de718ab-ad64-4a01-a7c2-ae14b6d62727"/>
+    <listType typeId="802a39ec-bdc2-4724-96bd-8bf1690a35af" valueTypeId="caa6b43b-2580-4761-b6cd-3b223fffeae4"/>
+    <managerType typeId="5f7189b7-23f2-4f33-8865-42c69d1c175d" valueTypeId="bf11cfc9-fa81-4cc0-bd33-4feeedf4068d"/>
+  </producedTypes>
+  <name>lg_Основания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основание</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74b4f444-ea13-432a-bcf2-29cb74fae4b6">
+    <name>Доверенность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доверенность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29928d27-fa7d-472d-8489-107e4d8433ac">
+    <name>Устав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Устав</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
